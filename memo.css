@@ -20,7 +20,7 @@ body {
   justify-content: center;
 }
  .audio {
-            margin: 110px; /* Margin untuk audio */
+            margin: 50%; /* Margin untuk audio */
         }
 
 .glow-text {

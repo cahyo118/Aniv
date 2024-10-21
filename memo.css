@@ -20,7 +20,7 @@ body {
   justify-content: center;
 }
  .audio {
-            margin: 500px; /* Margin untuk audio */
+            margin: 0; /* Margin untuk audio */
    
         }
 

@@ -20,6 +20,11 @@ body {
   justify-content: center;
 }
 
+audio {
+    max-width: 100%; /* Membuat audio responsif */
+    height: auto; /* Menjaga proporsi tinggi */
+}
+
 .audio{
   margin-bottom: 100px;
   margin-left: -100px;

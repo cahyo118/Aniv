@@ -19,10 +19,7 @@ body {
   font-family: Arial, sans-serif;
   justify-content: center;
 }
- .audio {
-            margin: 0; /* Margin untuk audio */
-   
-        }
+
 
 .glow-text {
   font-size: 2rem; /* Ukuran teks */
@@ -151,6 +148,11 @@ body {
 .memo-nav li.memo-item-selected {
   background: #555;
 }
+
+ .audio {
+            margin: 0; /* Margin untuk audio */
+   
+        }
 
 /* Responsive design with media queries */
 @media (max-width: 768px) {

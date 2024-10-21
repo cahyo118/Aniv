@@ -77,11 +77,11 @@ body {
 
 .audio-player {
   margin-top: 20px; /* Jarak antara gambar dan audio */
-  max-width: 100%; /* Membuat audio responsif */
-  height: auto; /* Menjaga proporsi tinggi */
+  max-width: 50%; /* Membuat audio responsif */
+  height: 10%; /* Menjaga proporsi tinggi */
   top: 40%;
   position: relative;
-  
+  width: 50%;
 }
 
 .memo-item {

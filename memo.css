@@ -81,7 +81,7 @@ body {
   height: auto; /* Menjaga proporsi tinggi */
   top: 40%;
   position: relative;
-  display: block;
+  
 }
 
 .memo-item {

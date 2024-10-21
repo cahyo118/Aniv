@@ -20,8 +20,8 @@ body {
   justify-content: center;
 }
 
-audio{
-  margin: 20px;
+.audio{
+  margin-bottom: 20px;
 }
 
 
@@ -153,11 +153,7 @@ audio{
   background: #555;
 }
 
- .audio {
-            margin: 0; /* Margin untuk audio */
-   
-        }
-
+ 
 /* Responsive design with media queries */
 @media (max-width: 768px) {
   .memo-container {

@@ -20,18 +20,6 @@ body {
   justify-content: center;
 }
 
-audio {
-    max-width: 100%; /* Membuat audio responsif */
-    height: auto; /* Menjaga proporsi tinggi */
-}
-
-.audio{
-  margin-bottom: 1000px;
-  margin-left: -100px;
-  posision: absolute;
-  
-  
-}
 
 
 .glow-text {
@@ -85,6 +73,14 @@ audio {
   transform: translate(-50%, -50%);
   width: 100%;
   flex-direction: column;
+}
+
+.audio-player {
+  margin-top: 20px; /* Jarak antara gambar dan audio */
+  max-width: 100%; /* Membuat audio responsif */
+  height: auto; /* Menjaga proporsi tinggi */
+  top: 40%;
+  position: relative;
 }
 
 .memo-item {

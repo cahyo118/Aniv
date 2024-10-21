@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  /* Dark gradient background with glow effect */
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0) 0%,
+    /* Very dark gray */ rgb(0, 0, 0) 100% /* Darker gray */
+  );
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.1); /* Soft glow effect */
+  font-family: Arial, sans-serif;
+  justify-content: center;
+}
+
+.glow-text {
+  font-size: 2rem; /* Ukuran teks */
+  color: white; /* Warna teks */
+  text-shadow: 0 0 5px #ffffff, /* Efek glow putih */ 0 0 10px #ffffff; /* Efek glow ungu */
+  animation: pulse 1.5s infinite alternate; /* Animasi berdenyut */
+  text-align: center;
+  top: -50%;
+  left: 50%;
+  transform: translate(-45%, 0%);
+}
+.glow-small-text {
+  font-size: 12px; /* Ukuran teks kecil */
+  color: white; /* Warna teks */
+  text-shadow: 0 0 5px #ffffff, /* Efek glow putih */ 0 0 10px #ff00ff; /* Efek glow ungu */
+  animation: pulse 1.5s infinite alternate; /* Animasi berdenyut */
+  position: absolute; /* Posisi absolut relatif terhadap kontainer induknya */
+  bottom: -300px; /* Posisikan 10px dari bawah layar */
+  left: 50%; /* Posisikan di tengah secara horizontal */
+  transform: translateX(
+    -50%
+  ); /* Pastikan teks benar-benar berada di tengah secara horizontal */
+  text-align: center; /* Pusatkan teks jika terdiri dari beberapa baris */
+  font-family: "Dancing Script", cursive;
+}
+
+@keyframes pulse {
+  from {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ff00ff;
+  }
+  to {
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ff00ff;
+  }
+}
+
+.memo {
+  width: 100%;
+}
+
+.memo-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  margin: auto;
+  max-width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  flex-direction: column;
+}
+
+.memo-item {
+  height: 200px;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  width: 330px;
+  z-index: 0;
+  border-radius: 15px;
+  background-size: contain;
+  margin: 10px;
+  max-width: 100%;
+}
+
+.memo-item-1 {
+  left: 15%;
+  opacity: 0.4;
+  transform: translateX(-50%);
+}
+
+.memo-item-2,
+.memo-item-4 {
+  height: 250px;
+  opacity: 0.8;
+  width: 380px;
+  z-index: 1;
+}
+
+.memo-item-2 {
+  left: 30%;
+  transform: translateX(-50%);
+}
+
+.memo-item-3 {
+  box-shadow: -2px 5px 33px 6px rgba(0, 0, 0, 0.35);
+  height: 300px;
+  opacity: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 430px;
+  z-index: 2;
+}
+
+.memo-item-4 {
+  left: 70%;
+  transform: translateX(-50%);
+}
+
+.memo-item-5 {
+  left: 85%;
+  opacity: 0.4;
+  transform: translateX(-50%);
+}
+
+.memo-nav {
+  bottom: -15px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.memo-nav li {
+  background: #ccc;
+  border-radius: 50%;
+  height: 10px;
+  margin: 0 16px;
+  width: 10px;
+}
+
+.memo-nav li.memo-item-selected {
+  background: #555;
+}
+
+/* Responsive design with media queries */
+@media (max-width: 768px) {
+  .memo-container {
+    height: 60vh;
+  }
+
+  .memo-item {
+    width: 80vw;
+    height: 35vh;
+  }
+
+  .memo-item-2,
+  .memo-item-4 {
+    width: 60vw;
+    height: 30vh;
+  }
+
+  .memo-item-3 {
+    width: 75vw;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .memo-container {
+    height: 70vh;
+  }
+
+  .memo-item {
+    width: 90vw;
+    height: 40vh;
+  }
+
+  .memo-item-2,
+  .memo-item-4 {
+    width: 70vw;
+    height: 35vh;
+  }
+
+  .memo-item-3 {
+    width: 85vw;
+    height: 50vh;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #fcf9fc;
+  }
+  100% {
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #faf8fa;
+  }
+}
+
+@keyframes pulse {
+  from {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ff00ff;
+  }
+  to {
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ff00ff;
+  }
+}

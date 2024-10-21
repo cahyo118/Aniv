@@ -20,8 +20,6 @@ body {
   justify-content: center;
 }
 
-
-
 .glow-text {
   font-size: 2rem; /* Ukuran teks */
   color: white; /* Warna teks */
@@ -159,7 +157,6 @@ body {
   background: #555;
 }
 
- 
 /* Responsive design with media queries */
 @media (max-width: 768px) {
   .memo-container {

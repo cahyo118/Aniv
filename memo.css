@@ -28,7 +28,7 @@ body {
   text-align: center;
   top: -50%;
   left: 55%;
-  transform: translate(-36%, 0%);
+  transform: translate(-8%, 0%);
 }
 .glow-small-text {
   font-size: 12px; /* Ukuran teks kecil */
@@ -36,8 +36,8 @@ body {
   text-shadow: 0 0 5px #ffffff, /* Efek glow putih */ 0 0 10px #ff00ff; /* Efek glow ungu */
   animation: pulse 1.5s infinite alternate; /* Animasi berdenyut */
   position: absolute; /* Posisi absolut relatif terhadap kontainer induknya */
-  bottom: -340px; /* Posisikan 10px dari bawah layar */
-  left: 50%; /* Posisikan di tengah secara horizontal */
+  bottom: -550px; /* Posisikan 10px dari bawah layar */
+  left: 65%; /* Posisikan di tengah secara horizontal */
   transform: translateX(
     -50%
   ); /* Pastikan teks benar-benar berada di tengah secara horizontal */
@@ -67,7 +67,7 @@ body {
   max-width: 1000px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 65%;
   transform: translate(-50%, -50%);
   width: 100%;
   flex-direction: column;

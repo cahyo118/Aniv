@@ -21,6 +21,8 @@ body {
 }
  audio {
             margin: 20px; /* Margin untuk audio */
+   top: 20%;
+   left:-50%;
         }
 
 .glow-text {

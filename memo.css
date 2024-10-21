@@ -19,6 +19,9 @@ body {
   font-family: Arial, sans-serif;
   justify-content: center;
 }
+ audio {
+            margin: 20px; /* Margin untuk audio */
+        }
 
 .glow-text {
   font-size: 2rem; /* Ukuran teks */

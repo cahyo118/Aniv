@@ -23,6 +23,8 @@ body {
 .audio{
   margin-bottom: 70px;
   margin-left: -100px;
+  posision: absolute;
+  
 }
 
 

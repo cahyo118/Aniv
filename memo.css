@@ -20,6 +20,10 @@ body {
   justify-content: center;
 }
 
+audio{
+  margin: 20px;
+}
+
 
 .glow-text {
   font-size: 2rem; /* Ukuran teks */

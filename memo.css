@@ -21,11 +21,10 @@ body {
 }
 
 .audio{
-  margin-bottom: 70px;
+  margin-bottom: 100px;
   margin-left: -100px;
   posision: absolute;
-  bottom: 200px; /* Jarak dari bagian bawah */
-    right: 200px; /* Jarak dari bagian kanan */
+  
   
 }
 

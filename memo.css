@@ -21,6 +21,7 @@ body {
 }
  .audio {
             margin: 500px; /* Margin untuk audio */
+   align-itens: center;
         }
 
 .glow-text {

@@ -28,7 +28,7 @@ body {
   text-align: center;
   top: -50%;
   left: 55%;
-  transform: translate(-8%, 0%);
+  transform: translate(-6%, 0%);
 }
 .glow-small-text {
   font-size: 12px; /* Ukuran teks kecil */
